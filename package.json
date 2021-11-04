@@ -1,0 +1,33 @@
+{
+  "name": "k-components",
+  "version": "1.0.0",
+  "description": "React comonents written in typescript",
+  "author": "Kamesh Sethupathi <1234.kamesh@gmail.com>",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "rollup -cw",
+    "prod": "rollup -c"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.8",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-replace": "^3.0.0",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "postcss": "^8.3.11",
+    "rollup": "^2.59.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "preact": "^10.5.15",
+    "styled-components": "^5.3.3"
+  }
+}

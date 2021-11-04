@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>k-components demo</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="main">
+            <h3>Button</h3>
+            <div class="btn-slot"></div>
+
+            <h3>Current Time</h3>
+            <div class="timer-slot"></div>
+        </div>
+    </div>
+
+    <script src="bundle.js"></script>
+    <script>
+
+        // Button component
+        components.button('.btn-slot',
+            {
+                type: 'filled',
+                color: "#0984e3",
+                handleClick: ()=> console.log('Hi team Fig!') 
+            },
+            "Click me!");
+
+        // Timer component
+        components.currentTime('.timer-slot');
+    </script>
+</body>
+
+</html>
